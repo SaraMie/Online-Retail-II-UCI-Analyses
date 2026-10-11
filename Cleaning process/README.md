@@ -1,3 +1,7 @@
+
+- [ ] add numbers for cleaning decisions
+- [ ] add link to SQL queries files
+
 # Transactions Data Cleaning (T-SQL)
  
 Cleaning of the raw `transactions` table into an analysis-ready table, `transactions_no_dup`. The steps remove duplicates and invalid rows, handle missing values, and add flag, revenue and date columns for downstream analysis (RFM, retention, return rates, seasonality).
