@@ -3,7 +3,7 @@
 Cleaning of the raw `transactions` table into an analysis-ready table, `transactions_no_dup`. The steps remove duplicates and invalid rows, handle missing values, and add flag, revenue and date columns for downstream analysis (RFM, retention, return rates, seasonality).
  
 **Source table:** `transactions`
-**Output table:** `transactions_no_dup`
+**Output table:** `transactions_clean`
 **Dialect:** T-SQL (SQL Server)
 
 ## cleaning decisions
