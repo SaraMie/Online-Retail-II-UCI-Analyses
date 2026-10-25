@@ -69,7 +69,7 @@ before calculating Y-o-Y we need to verify if there missing days or months
 
 ![image.png](/screenshots/image.png)
 
-**Query:  (file: sql/missing_days.sql)**
+**Query:  (file: /sql/missing_days.sql)**
 
 for 2009 → Just December
 
