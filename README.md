@@ -1,4 +1,4 @@
-# readme file v2
+
 
 This project explores and cleans a retail dataset to get know about its sales growth, furthermore it do segmentation for the customers. It built in SQL queries for EDA, ETL, Analyses and Power BI for visualize those analyses
 
