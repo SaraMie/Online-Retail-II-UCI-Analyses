@@ -50,7 +50,7 @@ for more details check the [`/Cleaning Process`](https://github.com/SaraMie/Onli
 
 Overview of the full dataset, Dec 2009 to Dec 2011, before any exclusions
 
-![overview_dash.png](overview_dash.png)
+![overview_dash.png](/screenshots/overview_dash.png)
 
 # Analysis
 
@@ -67,9 +67,9 @@ Y-o-Y growth it’s a percentage that describes the change of a measure comparin
 
 before calculating Y-o-Y we need to verify if there missing days or months
 
-![image.png](image.png)
+![image.png](/screenshots/image.png)
 
-**Query:  `sql/missing_days.sql`**
+**Query:  (file: sql/missing_days.sql)**
 
 for 2009 → Just December
 
@@ -88,7 +88,7 @@ a Year with only 1 month not a year, so it’ll be exclude in YoY calculation
 
 ### YoY revenue growth
 
-![image.png](image%201.png)
+![image.png](/screenshots/image%201.png)
 
 **Query:  `sql/yoy_revenue.sql`**
 
