@@ -110,17 +110,17 @@ a Year with only 1 month not a year, so it’ll be exclude in YoY calculation
 
 Overall (2010 and 2011 years) Orders per customers was 168 with 18.54$ as AOV means 
 
-![image.png](image%202.png)
+![image.png](/screenshots/image%202.png)
 
 Orders didn’t increased over the 2011 and even the AOV stuck on 18$
 
-![image.png](image%203.png)
+![image.png](/screenshots/image%203.png)
 
 a registered customer made only 88 order with AOV about 20$ in 2011, which is less then 2010
 
 while the guests are making orders (+117k in 2011) but the AOV is the half of what a registered customer order
 
-![image.png](image%204.png)
+![image.png](/screenshots/image%204.png)
 
 **Query:  `sql/ord per cust & aov.sql`**
 
@@ -128,13 +128,13 @@ while the guests are making orders (+117k in 2011) but the AOV is the half of wh
 
 **Overall totals :**
 
-![image.png](image%205.png)
+![image.png](/screenshots/image%205.png)
 
 The Registered customers make most orders (77%) and revenue (85%), in other hand the Guest orders not easy number but revenue does not (+229k makes 14% of all revenue)
 
 **per Years (2009 excluded) :**
 
-![image.png](image%206.png)
+![image.png](/screenshots//screenshots/image%206.png)
 
 for Registered customers as observed the volume of orders and revenue are slight decrease where Orders went from 38% to 36% in 2011 , Revenue went from 41% to 40%
 
@@ -178,7 +178,7 @@ Map the scores to named Segments
 
 ### RFM Analysis
 
-![image.png](image%207.png)
+![image.png](/screenshots/image%207.png)
 
 **Query:  `sql/rfm_analysis.sql`**
 
@@ -191,7 +191,7 @@ Accordingly the segments ‘Champions’ , ‘Can’t lose them’ brings in mor
 
 Among the 8 Segments we observe Champions, loyal , lost with big numbers. while other segments contributes with less than 5% of total revenue, and less than 11% of total registered customers
 
-![image.png](image%208.png)
+![image.png](/screenshots/image%208.png)
 
 Champions: The greater part of customers (25% of customers) with huge slice of revenue (70%) and spend +7k $ as average, so the business depends on a quarter of its customers
 
