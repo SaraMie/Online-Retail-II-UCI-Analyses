@@ -69,7 +69,7 @@ before calculating Y-o-Y we need to verify if there missing days or months
 
 ![image.png](/screenshots/image.png)
 
-**Query:  (file: /sql/missing_days.sql)**
+**Query: [`/sql/missing_days.sql`](https://github.com/SaraMie/Online-Retail-II-UCI-Analyses/blob/main/sql/missing_days.sql) )**
 
 for 2009 → Just December
 
@@ -90,7 +90,7 @@ a Year with only 1 month not a year, so it’ll be exclude in YoY calculation
 
 ![image.png](/screenshots/image%201.png)
 
-**Query:  `sql/yoy_revenue.sql`**
+**Query: [`/sql/yoy_revenue.sql`](https://github.com/SaraMie/Online-Retail-II-UCI-Analyses/blob/main/sql/yoy_revenue.sql) )**
 
 - It seems the Revenue growth over 2011 is almost flat (only 1.9%)
 
@@ -122,7 +122,7 @@ while the guests are making orders (+117k in 2011) but the AOV is the half of wh
 
 ![image.png](/screenshots/image%204.png)
 
-**Query:  `sql/ord per cust & aov.sql`**
+**Query: [`/sqlord%20per%20cust%20&%20aov.sql`](https://github.com/SaraMie/Online-Retail-II-UCI-Analyses/blob/main/sql/ord%20per%20cust%20&%20aov.sql) )**
 
 ## Registered Customers vs. Guests
 
@@ -134,13 +134,13 @@ The Registered customers make most orders (77%) and revenue (85%), in other hand
 
 **per Years (2009 excluded) :**
 
-![image.png](/screenshots//screenshots/image%206.png)
+![image.png](/screenshots/image%206.png)
 
 for Registered customers as observed the volume of orders and revenue are slight decrease where Orders went from 38% to 36% in 2011 , Revenue went from 41% to 40%
 
 We note that Guests went from +98k to +117k in 2011 while the revenue went down from 1.3M to 1.2M. Indicates that volume orders of guests doesn’t means more revenue.
 
-**Query:  `sql/reg vs guest.sql`**
+**Query: [`/sql/reg%20vs%20guest%20.sql`](https://github.com/SaraMie/Online-Retail-II-UCI-Analyses/blob/main/sql/reg%20vs%20guest%20.sql) **
 
 # Customer Segmentation using RFM
 
@@ -172,7 +172,7 @@ Map the scores to named Segments
 | Can’t lose them | R 1-2, F 4-5, M 4-5 | Direct outreach, high priority |
 | Lost | R ≤ 2 and F ≤ 2 | Low and inactive |
 
-**Query:  `sql/rfm.sql`**
+**Query: [`/sql/rfm.sql`](https://github.com/SaraMie/Online-Retail-II-UCI-Analyses/blob/main/sql/rfm.sql) )**
 
 **Result :**  table ‘rfm_segmentation’ that contains the columns : customer_id, days_since_last_order, total_spend,  #_orders, R, F, M, Score, Segment
 
@@ -180,7 +180,7 @@ Map the scores to named Segments
 
 ![image.png](/screenshots/image%207.png)
 
-**Query:  `sql/rfm_analysis.sql`**
+**Query: [`/sql/rfm_analysis.sql`](https://github.com/SaraMie/Online-Retail-II-UCI-Analyses/blob/main/sql/rfm_analysis.sql) )**
 
 Revenue ÷ customers metric :
 
