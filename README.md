@@ -214,3 +214,9 @@ At risk: 11% of customers with a low revenue share, so they matter less than “
 - **Guests can’t be tracked.** Guest orders have no customer ID, so they can’t be linked across purchases. Repeat behavior, lifetime value and RFM could only be measured for registered customers.
 - **RFM thresholds are arbitrary.** Scores of 1-5 and the segment rules are my own choices, not validated against actual behavior. Different cutoffs would change segment sizes and the revenue shares reported.
 - **Descriptive, not causal.** The analysis shows what changed, not why. Possible drivers (pricing, marketing, stock availability, seasonality) aren’t in the data.
+
+# Tools
+
+- Primary: SQL,  SQL Server
+- Supporting: Power BI for dashboards
+
